@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "code-formatter": "^0.0.2",
+    "cors": "^2.8.5",
+    "dom-parser": "^0.1.6",
+    "dom-to-json": "^0.0.4",
+    "express": "^4.18.1",
+    "hierarchy-tree-generator": "^1.0.13",
+    "hiff": "^0.3.1",
+    "jsdom": "^20.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
